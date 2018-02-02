@@ -1,0 +1,9 @@
+dist/*
+
+node_modules/*
+
+debug.log
+
+.idea/*
+
+.vscode/settings.json

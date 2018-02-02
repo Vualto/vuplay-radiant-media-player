@@ -1,0 +1,19 @@
+{
+  "name": "vuplay-radiant-media-player",
+  "version": "1.0.0",
+  "description": "A demonstration of the use of VUDRM within the radiant medai player ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vualto/vuplay-radiant-media-player.git"
+  },
+  "author": "mark niland (mark.niland@vualto.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vualto/vuplay-radiant-media-player/issues"
+  },
+  "homepage": "https://github.com/Vualto/vuplay-radiant-media-player#readme"
+}

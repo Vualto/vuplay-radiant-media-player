@@ -1,6 +1,6 @@
 # vuplay-radiant-media-player
 
-This repo will demonstrate how to use [VUDRM](https://docs.vualto.com/projects/vudrm/en/latest/index.html) with [radiant Media Player](https://www.radiantmediaplayer.com).
+This repo will demonstrate how to use [VUDRM](https://docs.vualto.com/projects/vudrm/en/latest/index.html) with [Radiant Media Player](https://www.radiantmediaplayer.com).
 
 If you have any questions please contact support@vualto.com
 

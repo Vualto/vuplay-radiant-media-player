@@ -18,7 +18,7 @@ If you have any questions please contact support@vualto.com
 
 1. Open the repository in your favourite javascript editor.
 2. In file `index.html` replace `<your-licenseKey>` with your Radiant Media Player key.
-3. In file `index.html` replace `<your-stream-url>` with your stream url. This can be an [MPEG-DASH] (https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP) or [HLS](https://developer.apple.com/streaming/) stream.
+3. In file `index.html` replace `<your-stream-url>` with your stream url. This can be an [MPEG-DASH](https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP) or [HLS](https://developer.apple.com/streaming/) stream.
 4. Run `grunt build` in the project's root. This will create a `dist` folder that contains all the files need to run this demo.
 5. Run `grunt serve`, this will run the build task from the previous step and start a development node.js server. This server is not suitable for production.
 6. Load a supported browser and go to `https://radiant.media.player.local.vuplay.co.uk:14705`
@@ -36,20 +36,20 @@ For a complete breakdown of supported media extensions please contact support@vu
 
 ### vudrm
 
-- [Contact vualto](http://www.vualto.com/contact-us/)
+- [Contact vualto](https://www.vualto.com/contact-us/)
 - [vudrm](https://docs.vualto.com/projects/vudrm/en/latest/index.html)
 - [vudrm token documentation](https://docs.vualto.com/projects/vudrm/en/latest/VUDRM-token.html)
 
 ### mpeg-DASH
 
 - [MPEG-DASH](https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP)
-- [What is MPEG-DASH](http://www.streamingmedia.com/Articles/Editorial/What-Is-.../What-is-MPEG-DASH-79041.aspx)
+- [What is MPEG-DASH](https://www.streamingmedia.com/Articles/Editorial/What-Is-.../What-is-MPEG-DASH-79041.aspx)
 
 ### HLS
 
 - [Apple's developer resources on HLS](https://developer.apple.com/streaming/)
 - [HLS wikipedia](https://en.wikipedia.org/wiki/HTTP_Live_Streaming)
-- [What is HLS?](http://www.streamingmedia.com/Articles/Editorial/What-Is-.../What-is-HLS-(HTTP-Live-Streaming)-78221.aspx)
+- [What is HLS?](https://www.streamingmedia.com/Articles/Editorial/What-Is-.../What-is-HLS-(HTTP-Live-Streaming)-78221.aspx)
 
 ### Encrypted media extensions
 
@@ -66,5 +66,5 @@ For a complete breakdown of supported media extensions please contact support@vu
 ### Build tools
 
 - [npm](https://www.npmjs.com/)
-- [grunt](http://gruntjs.com/)
+- [grunt](https://gruntjs.com/)
 

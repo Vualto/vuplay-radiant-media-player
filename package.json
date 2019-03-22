@@ -18,8 +18,11 @@
   "homepage": "https://github.com/Vualto/vuplay-radiant-media-player#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-concurrent": "^2.3.1",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-connect": "^1.0.2",
-    "grunt-contrib-copy": "^1.0.0"
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "prettier": "^1.16.4"
   }
 }

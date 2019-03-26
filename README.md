@@ -51,7 +51,7 @@ For a complete breakdown of supported media extensions please contact support@vu
 
 - [Apple's developer resources on HLS](https://developer.apple.com/streaming/)
 - [HLS wikipedia](https://en.wikipedia.org/wiki/HTTP_Live_Streaming)
-- [What is HLS?](<https://www.streamingmedia.com/Articles/Editorial/What-Is-.../What-is-HLS-(HTTP-Live-Streaming)-78221.aspx>)
+- [What is HLS?](https://www.streamingmedia.com/Articles/Editorial/What-Is-.../What-is-HLS-(HTTP-Live-Streaming)-78221.aspx)
 
 ### Encrypted media extensions
 

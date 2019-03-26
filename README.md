@@ -1,8 +1,11 @@
 # vuplay-radiant-media-player
 
-This repo will demonstrate how to use [VUDRM](https://docs.vualto.com/projects/vudrm/en/latest/index.html) with [Radiant Media Player](https://www.radiantmediaplayer.com).
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Built with Grunt](http://cdn.gruntjs.com/builtwith.svg)](https://gruntjs.com/)
 
-If you have any questions please contact support@vualto.com
+This repository will demonstrate how to use [VUDRM](https://docs.vualto.com/projects/vudrm/en/latest/index.html) with [Radiant Media Player](https://www.radiantmediaplayer.com). If you have any questions please contact support@vualto.com
+
+This repository is currently targeted at Radiant Media Player version 5.1.6
 
 ## Instructions
 
@@ -19,9 +22,8 @@ If you have any questions please contact support@vualto.com
 1. Open the repository in your favourite javascript editor.
 2. In file `index.html` replace `<your-licenseKey>` with your Radiant Media Player key.
 3. In file `index.html` replace `<your-stream-url>` with your stream url. This can be an [MPEG-DASH](https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP) or [HLS](https://developer.apple.com/streaming/) stream.
-4. Run `grunt build` in the project's root. This will create a `dist` folder that contains all the files need to run this demo.
-5. Run `grunt serve`, this will run the build task from the previous step and start a development node.js server. This server is not suitable for production.
-6. Load a supported browser and go to `https://radiant.media.player.local.vuplay.co.uk:14705`
+4. Run `npm start` in the project's root. This will create a `dist` folder that contains all the files need to run this demo, and run them on a local dev server.
+5. Load a supported browser and go to `https://radiant.media.player.local.vuplay.co.uk:14705`
     - You will need to add the host `radiant.media.player.local.vuplay.co.uk` to your local machine's hosts file in order for this to work.
 
 NB: In order to allow DRM encrypted playback in Chrome (https://goo.gl/EEhZqT), SSL has been enabled for the demo. You will get a warning about an invalid cert `NET::ERR_CERT_AUTHORITY_INVALID` but this can be safely ignored.
@@ -67,4 +69,3 @@ For a complete breakdown of supported media extensions please contact support@vu
 
 - [npm](https://www.npmjs.com/)
 - [grunt](https://gruntjs.com/)
-

@@ -1,41 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-  <title>TODO supply a title</title>
-</head>
-<body>
-<!-- Include Radiant Media Player JavaScript file in your <body> or <head> -->
-<!-- Here we use a specific version of our cloud player with subresource integrity (optional but provides better security) -->
-<script src="https://cdn.radiantmediatechs.com/rmp/4.6.24/js/rmp.min.js" 
-  integrity="sha384-Mu+2z7TvWR9SWxibgPybwz/bDzd7ojvKFb/qz66ZogW/9O82aEc6mehG0Og+AQqy"
-  crossorigin="anonymous"></script>
-<!-- Set up our container div with its unique id -->
-<div id="rmpPlayer"></div>
-<!-- Set up player configuration options -->
-<script>
-// First we specify a streaming URL for the player - in this example an HLS on-demand feed
-// Replace this URL with your own HLS feed
-var bitrates = {
-  dash: '<your-stream-url>'
-  // hls: 'https://d1chyo78gdexn4.cloudfront.net/vualto-demo/sintel/sintel_nodrm.ism/manifest.m3u8'
-};
-// Then we set our player settings
-var settings = {
-  licenseKey: '<your-licenseKey>',
-  bitrates: bitrates,
-  width: 640,
-  height: 360,
-  skin: 's1',
-  poster: 'https://www.radiantmediaplayer.com/images/poster-rmp-showcase.jpg'
-};
-// Reference to our container div (unique id)
-var elementID = 'rmpPlayer';
-// Create an object based on RadiantMP constructor
-var rmp = new RadiantMP(elementID);
-// Initialization ... test your page and done!
-rmp.init(settings);
-</script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width,minimum-scale=1,initial-scale=1"
+        />
+        <title>VUDRM with Radiant Media Player</title>
+    </head>
+
+    <body>
+        <div id="rmpPlayer"></div>
+        <script src="https://cdn.radiantmediatechs.com/rmp/5.1.6/js/rmp.min.js"></script>
+        <script src="vuplay-rmp.js"></script>
+    </body>
 </html>

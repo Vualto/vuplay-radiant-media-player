@@ -1,5 +1,4 @@
-module.exports = function (grunt) {
-
+module.exports = function(grunt) {
     grunt.initConfig({
         package: grunt.file.readJSON("package.json"),
 
@@ -7,10 +6,14 @@ module.exports = function (grunt) {
         copy: {
             all: {
                 expand: true,
-                src: ["index.html", "src/vuplay-rmp.js", "assets/vuplay_poster.png"],
+                src: [
+                    "index.html",
+                    "src/vuplay-rmp.js",
+                    "assets/vuplay_poster.png",
+                ],
                 dest: "dist/",
-                flatten: true
-            }
+                flatten: true,
+            },
         },
         watch: {
             options: {
@@ -31,9 +34,9 @@ module.exports = function (grunt) {
                     hostname: "radiant.media.player.local.vuplay.co.uk",
                     port: 14705,
                     base: "dist",
-                    keepalive: true
-                }
-            }
+                    keepalive: true,
+                },
+            },
         },
         concurrent: {
             connectandwatch: {
@@ -42,7 +45,7 @@ module.exports = function (grunt) {
                     logConcurrentOutput: true,
                 },
             },
-        }
+        },
     });
 
     grunt.loadNpmTasks("grunt-contrib-clean");
@@ -53,4 +56,4 @@ module.exports = function (grunt) {
 
     grunt.registerTask("build", ["clean", "copy"]);
     grunt.registerTask("serve", ["build", "concurrent:connectandwatch"]);
-}
+};

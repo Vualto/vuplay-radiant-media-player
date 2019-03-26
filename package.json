@@ -1,28 +1,58 @@
 {
-  "name": "vuplay-radiant-media-player",
-  "version": "1.0.0",
-  "description": "A demonstration of the use of VUDRM within the radiant medai player ",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Vualto/vuplay-radiant-media-player.git"
-  },
-  "author": "mark niland (mark.niland@vualto.com)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Vualto/vuplay-radiant-media-player/issues"
-  },
-  "homepage": "https://github.com/Vualto/vuplay-radiant-media-player#readme",
-  "devDependencies": {
-    "grunt": "^1.0.3",
-    "grunt-concurrent": "^2.3.1",
-    "grunt-contrib-clean": "^1.1.0",
-    "grunt-contrib-connect": "^1.0.2",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-watch": "^1.1.0",
-    "prettier": "^1.16.4"
-  }
+    "name": "vuplay-radiant-media-player",
+    "version": "1.0.0",
+    "description": "A demonstration of the use of VUDRM within the radiant medai player ",
+    "main": "index.js",
+    "scripts": {
+        "start": "grunt serve",
+        "format:write": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,scss,md,html}\"",
+        "format:check": "prettier --list-different \"**/*.{ts,tsx,js,jsx,json,css,scss,md,html}\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Vualto/vuplay-radiant-media-player.git"
+    },
+    "keywords": [
+        "vualto",
+        "vuplay",
+        "vudrm",
+        "radiant-media-player",
+        "mpedg-dash",
+        "dash",
+        "hls",
+        "fairplay",
+        "widevine",
+        "playready"
+    ],
+    "contributors": [
+        {
+            "name": "Mark Niland",
+            "email": "mark.niland@vualto.com",
+            "url": "https://github.com/maniland"
+        },
+        {
+            "name": "Lorenzo Koundouris",
+            "email": "lorenzo.koundouris@vualto.com",
+            "url": "https://github.com/lorenzo-vualto"
+        },
+        {
+            "name": "Stefano Nepa",
+            "email": "stefano.nepa@vualto.com",
+            "url": "https://github.com/stefanovualto"
+        }
+    ],
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Vualto/vuplay-radiant-media-player/issues"
+    },
+    "homepage": "https://github.com/Vualto/vuplay-radiant-media-player#readme",
+    "devDependencies": {
+        "grunt": "^1.0.3",
+        "grunt-concurrent": "^2.3.1",
+        "grunt-contrib-clean": "^1.1.0",
+        "grunt-contrib-connect": "^1.0.2",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-watch": "^1.1.0",
+        "prettier": "^1.16.4"
+    }
 }

@@ -13,7 +13,7 @@ This repository is currently targeted at Radiant Media Player version 5.1.6
 
 1. Install [npm](https://www.npmjs.com/)
 2. Install the [grunt-cli](https://www.npmjs.com/package/grunt-cli): `npm install -g grunt-cli`
-3. Clone the repositorysitory: `git clone git@github.com:Vualto/vuplay-radiant-media-player.git`
+3. Clone the repository: `git clone git@github.com:Vualto/vuplay-radiant-media-player.git`
 4. Navigate to the project's root folder: `cd vuplay-radiant-media-player`
 5. Install the dependencies: `npm install`
 
@@ -38,27 +38,27 @@ For a complete breakdown of supported media extensions please contact support@vu
 
 ### vudrm
 
--   [Contact vualto](https://www.vualto.com/contact-us/)
--   [vudrm](https://docs.vualto.com/projects/vudrm/en/latest/index.html)
--   [vudrm token documentation](https://docs.vualto.com/projects/vudrm/en/latest/VUDRM-token.html)
+- [Contact vualto](https://www.vualto.com/contact-us/)
+- [vudrm](https://docs.vualto.com/projects/vudrm/en/latest/index.html)
+- [vudrm token documentation](https://docs.vualto.com/projects/vudrm/en/latest/VUDRM-token.html)
 
 ### mpeg-DASH
 
--   [MPEG-DASH](https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP)
--   [What is MPEG-DASH](https://www.streamingmedia.com/Articles/Editorial/What-Is-.../What-is-MPEG-DASH-79041.aspx)
+- [MPEG-DASH](https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP)
+- [What is MPEG-DASH](https://www.streamingmedia.com/Articles/Editorial/What-Is-.../What-is-MPEG-DASH-79041.aspx)
 
 ### HLS
 
--   [Apple's developer resources on HLS](https://developer.apple.com/streaming/)
--   [HLS wikipedia](https://en.wikipedia.org/wiki/HTTP_Live_Streaming)
--   [What is HLS?](<https://www.streamingmedia.com/Articles/Editorial/What-Is-.../What-is-HLS-(HTTP-Live-Streaming)-78221.aspx>)
+- [Apple's developer resources on HLS](https://developer.apple.com/streaming/)
+- [HLS wikipedia](https://en.wikipedia.org/wiki/HTTP_Live_Streaming)
+- [What is HLS?](<https://www.streamingmedia.com/Articles/Editorial/What-Is-.../What-is-HLS-(HTTP-Live-Streaming)-78221.aspx>)
 
 ### Encrypted media extensions
 
--   [Encrypted media extensions specification](https://www.w3.org/TR/2016/CR-encrypted-media-20160705/)
--   [Encrypted media extensions wikipedia](https://en.wikipedia.org/wiki/Encrypted_Media_Extensions)
--   [Encrypted media extensions on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Encrypted_Media_Extensions_API)
--   [Intro to encrypted media extensions](https://www.html5rocks.com/en/tutorials/eme/basics/)
+- [Encrypted media extensions specification](https://www.w3.org/TR/2016/CR-encrypted-media-20160705/)
+- [Encrypted media extensions wikipedia](https://en.wikipedia.org/wiki/Encrypted_Media_Extensions)
+- [Encrypted media extensions on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Encrypted_Media_Extensions_API)
+- [Intro to encrypted media extensions](https://www.html5rocks.com/en/tutorials/eme/basics/)
 
 ### Radiant Media Player
 

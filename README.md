@@ -62,10 +62,10 @@ For a complete breakdown of supported media extensions please contact support@vu
 
 ### Radiant Media Player
 
--   [Radiant Media Player](https://www.radiantmediaplayer.com)
--   [Online documentation](https://www.radiantmediaplayer.com/docs/latest/quick-start.html)
+- [Radiant Media Player](https://www.radiantmediaplayer.com)
+- [Online documentation](https://www.radiantmediaplayer.com/docs/latest/quick-start.html)
 
 ### Build tools
 
--   [npm](https://www.npmjs.com/)
--   [grunt](https://gruntjs.com/)
+- [npm](https://www.npmjs.com/)
+- [grunt](https://gruntjs.com/)

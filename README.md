@@ -20,9 +20,9 @@ This repository is currently targeted at Radiant Media Player version 5.1.6
 ### Build and run the dev environment
 
 1. Open the repository in your favourite javascript editor.
-2. In file `index.html` replace `<your-licenseKey>` with your Radiant Media Player key.
-3. In file `index.html` replace `<your-stream-url>` with your stream url. This can be an [MPEG-DASH](https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP) or [HLS](https://developer.apple.com/streaming/) stream.
-4. Run `npm start` in the project's root. This will create a `dist` folder that contains all the files need to run this demo, and run them on a local dev server.
+2. In file `index.html` replace `<your-license-key>` with your Radiant Media Player key.
+3. In file `index.html` replace `<your-stream-url>` with your stream URL. This can be an [MPEG-DASH](https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP) or [HLS](https://developer.apple.com/streaming/) stream.
+4. Run `npm start` in the project's root. This will create a `dist` folder that contains all the files needed to run this demo, and run them on a local dev server.
 5. Load a supported browser and go to `https://radiant.media.player.local.vuplay.co.uk:14705`
     - You will need to add the host `radiant.media.player.local.vuplay.co.uk` to your local machine's hosts file in order for this to work.
 
@@ -36,13 +36,13 @@ For a complete breakdown of supported media extensions please contact support@vu
 
 ## Useful links
 
-### vudrm
+### VUDRM
 
-- [Contact vualto](https://www.vualto.com/contact-us/)
-- [vudrm](https://docs.vualto.com/projects/vudrm/en/latest/index.html)
-- [vudrm token documentation](https://docs.vualto.com/projects/vudrm/en/latest/VUDRM-token.html)
+- [Contact Vualto](https://www.vualto.com/contact-us/)
+- [VUDRM](https://docs.vualto.com/projects/vudrm/en/latest/index.html)
+- [VUDRM token documentation](https://docs.vualto.com/projects/vudrm/en/latest/VUDRM-token.html)
 
-### mpeg-DASH
+### MPEG-DASH
 
 - [MPEG-DASH](https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP)
 - [What is MPEG-DASH](https://www.streamingmedia.com/Articles/Editorial/What-Is-.../What-is-MPEG-DASH-79041.aspx)
